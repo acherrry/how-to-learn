@@ -1,3 +1,7 @@
+* {
+  border: solid 1px red;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -14,6 +18,19 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  position: relative;
+}
+
+.logo {
+  width: 183px;
+  height: 32px;
+  z-index: -1;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
