@@ -1,9 +1,9 @@
 .logo_place_footer {
   height: 35px;
   background-image: url(../../../images/logo/_place/logo_place_footer.svg);
+  transition: opacity 0.2s linear;
 }
 
 .logo_place_footer:hover {
   opacity: 0.7;
-  transition: opacity 0.2s linear;
 }

@@ -4,9 +4,9 @@
   position: absolute;
   top: 30px;
   left: 64px;
+  transition: opacity 0.2s linear;
 }
 
 .logo_place_header:hover {
   opacity: 0.7;
-  transition: opacity 0.2s linear;
 }
